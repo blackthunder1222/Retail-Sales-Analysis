@@ -51,9 +51,3 @@ The model is not trusted to enforce safety. Before execution, the app opens SQLi
 2. Add a small evaluation set of representative questions with expected SQL and expected aggregates; measure execution accuracy and answer faithfulness.
 3. Add examples of ambiguous questions and a clarification step before SQL generation.
 4. Add a documented comparison of model quality and per-question API cost.
-
-## Resume wording after you run and validate it
-
-> Built a Text-to-SQL analytics assistant that uses the OpenAI Responses API to translate natural-language questions into schema-aware SQLite queries over a synthetic retail dataset; added read-only query safeguards and plain-English result summaries.
-
-Only include claims you personally verify and can explain. Add a GitHub/demo link once you publish the project yourself.
